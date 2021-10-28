@@ -1,0 +1,26 @@
+.container {
+    // border: 1px solid black;
+    margin: auto;
+    padding: 5%;
+
+    .title {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid black;
+        height: 60vh;
+
+        &__item {
+            border: 1px solid black;
+            height: 100%;
+            padding: 2%;
+            width: 30%;
+            text-align: center;
+        }
+
+    }
+}

@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Test 01
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Time limit:
+* You have 5 hours
 
-## Available Scripts
+### Required knowledge:
 
-In the project directory, you can run:
+* Typescript
+* CSS pre-processor (SCSS or SASS)
+* Angular > v4.3 or React > v16
+* Bootstrap / Material
+* Git
 
-### `npm start`
+### Duration: max 3h
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Spend the time to find a clean way to solve the tasks, we just want to see how much you know about Angular/React and how you can use these awesome technologies.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### The test includes 3 main challenges: 
 
-### `npm test`
+1. Weather API 
+2. One Question Quiz
+3. Football Team Organiser
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Note. Please have these challenges all in one app using routing to navigate between them.  
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Weather Cards
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Api Doc: https://openweathermap.org/current
+* Api Key: 0f33f5c78acf44e7d38b5f6706f6f59d
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#### Using the public OpenWeatherMap API, you need to build three cards displaying the current weather data for:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* City of London (city_id: 2643744)
+* City of Bristol (city_id: 4749005)
+* Rome (city_id: 4219762)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### The cards need to display: 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Temperature
+2. Humidity
+3. Minimum temperature at the moment 
+4. Maximum temperature at the moment
 
-## Learn More
+Default is Kelvin, but we love Celsius so can you change the measurement please.  We're interested to see some of your styling skills so please use this challenge to showcase them!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## One Question Quiz
 
-### Code Splitting
+* Create a one question quiz that validates itself and checks the user input against the correct answer. 
+Eg. pizza validates true when typed in an input
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Football Team Organiser
+Using the data set provided, build a component to allow users to select players from the list and create their ideal Borussia Mönchengladbach starting eleven.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+#### Keep in mind:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* A user can’t insert a player more than once.
+* A team can have no more than 1 Goalkeeper
+* The starting eleven needs to include 3 Defenders, 4 Midfielders, 3 Attackers.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The UI should reflect the user choices.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### After you complete all the test, commit this challenge to a public GitHub repository and send us the link!
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Good Luck 
+
+---

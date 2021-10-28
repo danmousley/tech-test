@@ -1,0 +1,29 @@
+@import "../../variables.scss";
+
+.nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: $nav-height;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0;
+    
+
+    &__apps {
+        // display: flex;
+        // justify-content: space-between;
+    }
+
+    &__link {
+        padding: 0 5%;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+span {
+    margin: 10%;
+}
