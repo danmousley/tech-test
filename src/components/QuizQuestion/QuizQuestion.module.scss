@@ -1,0 +1,30 @@
+.question {
+
+}
+
+.answer {
+    width: 100%;
+    height: 4vh;
+    border-radius: 5px;
+    padding: 3%;
+}
+
+.answerValid {
+    background-color: rgb(89, 216, 89);
+}
+
+.answerInvalid {
+    background-color: rgb(255, 78, 78);
+}
+
+.feedback {
+    padding: 1%;
+}
+
+.feedbackValid {
+    color: green;
+}
+
+.feedbackInvalid {
+    color: red;
+}
