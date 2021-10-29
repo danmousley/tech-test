@@ -1,0 +1,27 @@
+@import '../../variables.scss';
+
+.container {
+    padding: 5%;
+
+    .subtitle {
+        text-align: left;
+        size: 1rem;
+        margin-top: 0;
+    }
+
+    .playerList {
+        // list-style-type: none;
+    }
+
+    .playerButton {
+        background-color: transparent;
+        border: none;
+        color: white;
+
+        &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}
+    

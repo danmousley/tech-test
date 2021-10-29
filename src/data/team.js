@@ -1,4 +1,4 @@
-[
+const team = [
   {
     "id": 3176,
     "name": "Matthias Ginter",
@@ -333,3 +333,5 @@
     "role": "COACH"
   }
 ]
+
+export default team;

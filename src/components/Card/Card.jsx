@@ -21,10 +21,10 @@ const Card = (props) => {
                 {getIcon()}
             </header>
             <hr></hr>
-            <p>Temperature: {city.main.temp} °C</p>
-            <p>Max: {city.main.temp_max} °C</p>
-            <p>Min Temp: {city.main.temp_min} °C</p>
-            <p>Humidity: {city.main.humidity}</p>
+            <p>Temperature: {Math.round(city.main.temp)} °C</p>
+            <p>Max Temp: {Math.round(city.main.temp_max)} °C</p>
+            <p>Min Temp: {Math.round(city.main.temp_min)} °C</p>
+            <p>Humidity: {Math.round(city.main.humidity)}</p>
         </div>
     )
 }
