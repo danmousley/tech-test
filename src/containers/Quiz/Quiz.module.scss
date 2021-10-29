@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .container {
 
     .title {
@@ -12,5 +14,6 @@
         // border: 1px solid black;
         margin: 0 auto;
         width: 50vw;
+        color: $text-color;
     }
 }

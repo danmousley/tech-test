@@ -1,3 +1,5 @@
+@import "../../variables.scss";
+
 .container {
 
     .title {
@@ -6,6 +8,7 @@
         padding: 5%;
         font-size: 40px;
         margin-bottom: 0;
+        color: $text-color;
     }
 
     .cardList {
