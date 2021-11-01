@@ -10,7 +10,7 @@ const Weather = () => {
         const london = await getWeather(2643744);
         const bristol = await getWeather(4749005);
         const rome = await getWeather(4219762);
-    
+        
         setWeather([london, bristol, rome]);
       }, []);
 

@@ -3,7 +3,7 @@ import styles from './Quiz.module.scss';
 import QuizQuestion from '../../components/QuizQuestion';
 
 const Quiz = () => {
-    const [isCorrect, setIsCorrect] = useState([])
+    const [isCorrect, setIsCorrect] = useState(false)
     
     const validateAnswer = (answer) => {
         if (answer.toLowerCase() === "honey") {
