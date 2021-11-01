@@ -5,7 +5,7 @@ const SideNav = (props) => {
     const {teamList, onSelect} = props;
     const getTeamList = () => {
         return teamList.map((player) => {
-            return <li><button onClick={e => onSelect(player.id)} className={styles.playerButton}>{player.name} ({player.position})</button></li>
+            return <li><button onClick={e => onSelect(player.id)} className={styles.playerButton}>{player.name} ({player.position || player.role})</button></li>
         })
     }
     return (
